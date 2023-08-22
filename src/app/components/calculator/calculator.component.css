@@ -1,0 +1,44 @@
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.inputs-flex-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #535ef3;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #c9c9c9;
+    box-shadow: 5px 5px 5px grey;
+}
+
+h2 {
+    background-color: #0505b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 3px;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+input {
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 50%;
+    margin: 25px auto;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
