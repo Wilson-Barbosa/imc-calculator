@@ -15,6 +15,10 @@ export class CalculatorComponent {
 
     //function to calculate imc
     imcCalculate(){
-      this.imcIndex = this.weight / this.height;
+        this.imcIndex = this.weight / this.height;
+    }
+
+    imcRating() {
+        
     }
 }
