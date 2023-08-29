@@ -2,12 +2,13 @@
   <div class="inputs-flex-selector">
     <h2>IMC Calculator</h2>
 
-    <label for="">Height (m):</label>
-    <input id="height-input" type="number" name="height" placeholder="Type your height">
+    <label for="height-input">Altura (m):</label>
+    <input id="height-input" type="number" [(ngModel)]="height" name="height">
 
-    <label>Weight (kg):</label>
-    <input id="weight-input" type="number" name="weight" placeholder="Type your weight">
+    <label for="weight-input">Peso (kg):</label>
+    <input id="weight-input" type="number" [(ngModel)]="weight" name="weight">
 
-    <button id="button">Calculate</button>
+    <button id="button" (click)="imcCalculate()">Calculate</button>
+    {{answer}}
   </div>
 </form>
